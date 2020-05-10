@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'code-with-viswas';
+  name = ''
+  message = ''
+  constructor() {}
+  
+
+  logmsg(value) {
+    console.log(value)
+  }
 }
